@@ -15,7 +15,7 @@ SECRET_KEY = 'django-insecure-*ext%@p(z36cl9(26f7yc^mi$&0y29$zgeka3cutb)7%ug$$2*
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['.vercel.app','*']
 
 
 # Application definition
@@ -124,3 +124,6 @@ STATIC_URL = 'static/'
 STATICFILES_DIRS=[BASE_DIR / 'static'] 
 
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
+
+
+
